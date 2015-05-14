@@ -1,5 +1,5 @@
-Template.contentItem.helpers({
+/*Template.contentItem.helpers({
   submittedText: function() {
     return this.submitted.toString();
   }
-});
+});*/
