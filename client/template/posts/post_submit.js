@@ -12,7 +12,7 @@ Template.postSubmit.helpers({
 
 
 Template.postSubmit.events({
-  'submit form': function(e, template) {
+  'submit form': function(e) {
     e.preventDefault();
 
    
