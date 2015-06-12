@@ -6,6 +6,11 @@ Meteor.publish('posts', function(options) {
  return Posts.find({}, {sort: options.sort, limit: options.limit});
 });
 
+Meteor.publish('singlePost', function(id) {
+  check(id, String)
+  return Posts.find(id);
+  });
+
 
 /*Meteor.publish('posts', function() {
   return Posts.find();
