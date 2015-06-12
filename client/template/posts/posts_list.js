@@ -1,1 +1,3 @@
-
+/*Template.postsList.helpers({
+	
+});*/
